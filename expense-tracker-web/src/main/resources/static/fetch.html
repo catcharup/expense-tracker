@@ -1,0 +1,28 @@
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
+<title>Expense Details Fetch</title>
+</head>
+<body bgcolor="grey">
+<h1>Fetch Expense Details</h1>
+</br>
+</br>
+<a href="index.html">Home</a>
+</br>
+</br>
+<form action="http://localhost:8080/api/private/expenseDetails" method="GET">
+			<table style="with: 50%">
+				<tr>
+					<td>Expense Month with Year</td>
+					<td><input type="date" name="expenseDate" /></td>
+				</tr>
+				<tr>
+					<td>User</td>
+					<td><input type="text" name="user" /></td>
+				</tr>
+				<tr>
+					<td>password</td>
+					<td><input type="password" name="password" /></td>
+				</tr>
+				</table>
+			<input type="submit" value="Submit" /></form>
+</body>
